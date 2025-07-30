@@ -18,6 +18,20 @@
 ---
 
 ## 🧪 效果示例
+![效果示例](https://raw.githubusercontent.com/liumingdada/SEO_HTML_Obfuscator/refs/heads/main/show.jpg "处理前后对比")
+
+
+🔧 自定义配置
+ 
+变量 / 函数	用途说明
+
+$templateFolder	模板目录路径，默认 ./muban。
+
+$tags（generateRandomTagContent() 内）	要插入的随机标签列表，如 ["div", "p", "span"]。
+
+generateRandomString()	控制生成 id / class 的字符集与长度。
+
+getNewHTML()	如需支持更多闭合标签（如 </section>、<img> 等），可在此处扩展。
 
 
 ## ✅ 思路交流
